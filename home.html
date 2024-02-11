@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="duck icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Caveat&family=Dancing+Script:wght@700&family=Lato&family=Press+Start+2P&family=Protest+Riot&family=Rubik+Glitch+Pop&family=Rubik+Maps&family=Single+Day&display=swap&family=Open+Sans:wght@300&family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2534be6a9f.js" crossorigin="anonymous"></script>
+    <title>Portfolio Home</title>
+    <style>
+        main{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            text-align: left;
+           
+        }
+        #logo{
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-size: 30px;
+            margin-top: 0px;
+            padding-top: 4px;
+            position: relative;
+            font-family: 'Dancing Script', cursive;
+        }
+        .navbar{
+            width: 20%;
+            background-color:teal;
+            margin-right: 10px;
+            position:relative;
+            height: 100%;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .navbar a{
+            display: list-item;
+            color: black;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding:20px;
+            font-size: 18px;
+            border-top: 1px solid black; 
+            border-bottom: 1px solid black; 
+            font-family: 'Montserrat', sans-serif;
+          }
+        a:hover{
+            background-color: rgb(30, 160, 160);
+            cursor: pointer;
+            letter-spacing: 4px;
+        }
+        h1{
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
+            font-family: 'Lato', sans-serif;
+        }
+        .body{
+            float: left;
+            display:block;
+            text-align: left;
+            height: 100%;
+            overflow: scroll;
+            scroll-behavior: smooth;
+        }
+        .p{
+        float: left;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+       }
+       ul{
+        list-style:square;
+        font-family: 'Open Sans', sans-serif;
+       }
+       .link{
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+       }
+       .icon:hover{
+        cursor: pointer;
+        background-color: white;
+       }
+       footer{
+        height: 40px;
+        background-color: black;
+        color: white;
+        float: bottom;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 1px;
+       }
+    </style>
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <h1 id="logo">tasneem.</h1>
+            <a href="#about">About</a>
+            <a href="#skills">skills</a>
+            <a href="#hobbies">hobbies</a>
+            <a href="#life">my life</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="body">
+            <h1 id="about">About Me</h1>
+            <p class="p">Hi! I am Tasneem , born in May 15,2004 in Egypt Beni Suef , Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque dolorem recusandae ratione dolore illum, culpa officiis animi consectetur sit. Rerum harum consequuntur illo pariatur totam odit sapiente molestias cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quam animi, debitis vero aspernatur neque corrupti, maxime magnam ipsum fuga eligendi. Eos, illum facilis odio tempore exercitationem unde nihil id!</p>
+            <h1 id="skills">Skills</h1>
+            <ul>
+                <li>Fluent in three languages</li>
+                <ul>
+                    <li>Arabic</li>
+                    <li>English</li>
+                    <li>Turkish</li>
+                </ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Social skills</li>
+            </ul>
+            <h1 id="hobbies">hobbies</h1>
+            <ul>
+                <li>Reading</li>
+                <li>Learning Languages</li>
+                <li>Gardening</li>
+            </ul>
+            <h1 id="life">My Life</h1>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum ipsum qui molestias at nesciunt necessitatibus consequatur porro dignissimos doloribus voluptatibus, unde consequuntur illo dolore praesentium repellendus et itaque quidem!</p>
+            <h1 id="contact">Contact Me </h1>
+            <a href="" class="icon"><i class="fa-brands fa-instagram fa-2x" style="color: #000000;"></i></a>
+            <br>
+            <a href="" class="icon"><i class="fa-brands fa-facebook-f fa-2x" style="color: #000000;"></i></a>
+            <br>
+            <a href="" class="icon"><i class="fa-brands fa-github fa-2x" style="color: #000000;"></i></a>
+            <br>
+            <a href="" class="icon"><i class="fa-brands fa-whatsapp fa-2x" style="color: #000000;"></i></a>
+            <footer>
+                <p>&copy; 2024 Tasneem Portfolio</p>
+               </footer>
+        </div>
+    </main>
+</body>
+</html>
